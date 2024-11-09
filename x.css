@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 400px;
+        background: black;
+        position: relative;
+}
+
+.trace1 {
+        
+        height: 260px;
+            width: 20px;
+            background: white;
+            transform: skewX(-40deg) translateX(50%);
+}
+
+.trace2 {
+    
+    height: 260px;
+    width: 50px;
+    background: white;
+    transform: skewX(60deg) translateX(-20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.black-rectangle {
+    height: 226px;
+        width: 26px;
+        background: black;
+    }
